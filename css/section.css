@@ -1,9 +1,9 @@
 .banner{
     background: url(../img/bg.jpg) no-repeat center right/cover;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     z-index: 10;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .banner__wrap{
@@ -72,5 +72,56 @@
     font-weight: 400;
     line-height: 21px;
     color: white;
+
+}
+
+.eat{
+    background: #292929;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);  
+}
+
+.menu__eat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eats{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    padding: 21px 20px;
+}
+
+
+
+.menu__naw {
+font-family: var(--rr);
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+color: white;
+position: relative;
+}
+
+
+.menu__naw::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    border-radius: 1px;
+    background:  white;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+.menu__naw:hover{
+color: white;
+}
+
+.menu__naw:hover.menu__naw::before {
+    width: 100%;
 
 }
