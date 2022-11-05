@@ -12,7 +12,8 @@
 }
 
 .all{
-    padding:  167px 0 169px ;
+    height: 100vh;
+    padding-top:  167px  ;
 }
 
 .big{
@@ -77,7 +78,7 @@
 
 .eat{
     background: #292929;
-    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);  
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
 }
 
 .menu__eat{
@@ -123,5 +124,54 @@ color: white;
 
 .menu__naw:hover.menu__naw::before {
     width: 100%;
+
+}
+
+.burgers{
+    background:  #393636;
+    padding: 15px;
+    
+}
+
+.burg__wrap{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   width: 100%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+}
+
+.card{
+    height: 524px;
+    width: 370px;
+    background: #0c0c0c;
+    border-radius: 4px ;
+    border: 1px solid white;
+
+}
+
+.burg{
+    padding: 15px 16px ;
+}
+.meet{
+    padding: 0 15px ;
+}
+
+.meat{
+    font-family: var(--ral-bo) , sans-serif;
+    font-size: 19px;
+   font-weight: 700;
+  line-height: 15px;
+  margin-bottom: 15px;
+
+} 
+.ip{
+    font-family: var(--rr) , sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+
 
 }
