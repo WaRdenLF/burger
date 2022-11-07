@@ -63,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:28px;
+    
 }
 .tow{
     font-family: var(--Roboto-Regular) , sans-serif;
@@ -71,10 +71,12 @@
     font-weight: 400;
     line-height: 21px;
     color: white;
+    padding: 22px 14px;
     transition: 0.3s;
+    gap:28px;
 }
 
 .tow:hover{
     background:#69CF17BF;
-    padding: 22px 14px;
+    
  }
