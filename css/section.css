@@ -149,15 +149,15 @@ color: white;
     background: #0c0c0c;
     border-radius: 4px ;
     border: 1px solid white;
+    padding: 15px  ;
 
 }
 
-.cards{
-    padding: 15px 16px;
-}
+
 .burg{
-    position: relative;
+    position: relative; 
 }
+
 
 .burg i{
     position: absolute;
@@ -187,16 +187,14 @@ color: white;
 }
 
 
-.meet{
-    padding: 0 15px ;
-}
 
 .meat{
     font-family: var(--ral-bo) , sans-serif;
     font-size: 19px;
    font-weight: 700;
    line-height: 15px;
-  margin-top: 15px;
+   margin: 15px 0 ;
+
 
 } 
 .ip{
@@ -204,7 +202,7 @@ color: white;
     font-size: 19px;
     font-weight: 400;
     line-height: 25px;
-    margin-top: 10px;
+    
 
 
 }
