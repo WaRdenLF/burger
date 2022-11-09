@@ -207,6 +207,9 @@ color: white;
 
 }
 
+iframe{
+    width: 100%;
+}
 .lin{
     margin-bottom: 50px;
 }
