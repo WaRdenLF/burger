@@ -238,3 +238,22 @@ iframe{
     background: url(../img/maps.png) no-repeat center/cover;
     height: 80vh;
 }
+
+
+.cutlet{
+    padding-bottom: 30px ;
+    background: url(../img/cutlet.jpg) no-repeat center;
+    height: 80vh;
+    width: 1110px;
+}
+
+.text{
+    font-family: var(--ral-bo) ,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    max-width: 1110px;
+    margin-bottom: 30px ;
+
+
+}
