@@ -1,9 +1,9 @@
 .banner{
     background: url(../img/bg.jpg) no-repeat center right/cover;
-    height: 100vh;
+    height: 700px;
     position: relative;
     z-index: 10;
-    margin-bottom: 48px;
+    max-width: 100%;
 }
 
 .banner__wrap{
@@ -79,6 +79,7 @@
 .eat{
     background: #292929;
     box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+    margin-top: 48px;
 }
 
 .menu__eat{
@@ -240,12 +241,6 @@ iframe{
 }
 
 
-.cutlet{
-    padding-bottom: 30px ;
-    background: url(../img/cutlet.jpg) no-repeat center;
-    height: 80vh;
-    width: 1110px;
-}
 
 .text{
     font-family: var(--ral-bo) ,sans-serif;
@@ -253,7 +248,34 @@ iframe{
     font-weight: 700;
     line-height: 25px;
     max-width: 1110px;
-    margin-bottom: 30px ;
+    padding-top: 30px ;
+    margin: 0 auto;
+}
+
+.cutlet{
+    padding: 30px 0;
+}
+
+.cutlet__img{
+    max-width: 100%;
+}
+
+.cutlets{
+    position: relative;
+    text-align: center;
+}
+
+.cutlet__h{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: rgba(105, 207, 23, 0.7);
+    font-family: var(--ral-bo);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
 
 
 }
