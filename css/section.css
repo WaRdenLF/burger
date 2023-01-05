@@ -280,3 +280,7 @@ iframe{
 
 
 }
+.maps__s{
+background: var(--white);
+padding: 0 20px;
+}
